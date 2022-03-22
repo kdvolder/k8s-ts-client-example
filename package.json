@@ -1,0 +1,20 @@
+{
+  "name": "k8s-ts-client-example",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "description": "Bah",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "release": "standard-version"
+  },
+  "author": "me <me@some.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "typescript": "^4.6.2"
+  }
+}
